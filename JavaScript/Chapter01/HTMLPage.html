@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+    <title></title>
+    <script>
+        // var input = prompt('Message', 'DefStr');
+        var input = 'Hello World';
+        var numberInput = Number(input);
+        console.log(typeof (numberInput) + ' : ' + numberInput);
+        console.log('sqrt(-3) : ' + Math.sqrt(-3));
+
+        console.log('' === false);
+        console.log('' === 0);
+        console.log(0 === false);
+        console.log('273' === 273);
+
+        // 템플릿 문자열 '₩'
+        console.log(`표현식 273 + 52의 값은 ${52 + 273}입니다...!`);
+
+        var variable = 273;
+        console.log(`변수 variable의 값은 ${variable}입니다.`);
+
+        for (var i = 0; i < 3; i++) {
+            ((i) => {
+                setTimeout(() => {
+                    alert(i);
+                }, 1000 * i);
+            })(i);
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
